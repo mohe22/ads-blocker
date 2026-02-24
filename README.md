@@ -5,9 +5,12 @@ A lightweight DNS-based ad blocker written in C++ that intercepts and filters un
 
 ## Before & After
 
-| Before | After |
-|--------|-------|
-| ![before](https://mohe-things.netlify.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fd3z4023q%2Fproduction%2F00f283481cd504e785c83983f95f7b2e1a58d863-1919x960.png&w=828&q=100) | ![after]([place](https://mohe-things.netlify.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fd3z4023q%2Fproduction%2F6654887ee01414de6f89d4227267e21c8978960b-1896x902.png&w=828&q=100)) |
+**Before**
+![before]([https://cdn.sanity.io/images/d3z4023q/production/00f283481cd504e785c83983f95f7b2e1a58d863-1919x960.png](https://mohe-things.netlify.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fd3z4023q%2Fproduction%2F00f283481cd504e785c83983f95f7b2e1a58d863-1919x960.png&w=828&q=100))
+
+**After**
+![after]([https://cdn.sanity.io/images/d3z4023q/production/6654887ee01414de6f89d4227267e21c8978960b-1896x902.png](https://mohe-things.netlify.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fd3z4023q%2Fproduction%2F6654887ee01414de6f89d4227267e21c8978960b-1896x902.png&w=828&q=100))
+
 
 ---
 
