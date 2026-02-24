@@ -23,7 +23,7 @@ namespace DNS::Server {
      * @param timeout_ms  How long (in milliseconds) to wait for a response from the upstream resolver before giving up. Defaults to 5000ms.
      */
     struct Config {
-        std::string serverIp   = "0.0.0.0";
+        std::string serverIp   = "127.0.0.1";
         uint16_t  portServerIp = 53;
         std::string upstreamIp = "8.8.8.8";
         uint32_t timeout_ms    = 5000;

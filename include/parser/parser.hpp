@@ -7,20 +7,20 @@
 
 namespace DNS::Parser{
     class Name {
-    public:
-        // decode: handles both cases internally
-        //   → plain labels: reads normally
-        //   → 0xC0 pointer: jumps and follows, caller doesn't need to know
-        static std::expected<std::string, Error>
-        decode(const uint8_t* data, size_t len, size_t&offset) noexcept;
+        public:
+            // decode: handles both cases internally
+            //   → plain labels: reads normally
+            //   → 0xC0 pointer: jumps and follows, caller doesn't need to know
+            static std::expected<std::string, Error>
+            decode(const uint8_t* data, size_t len, size_t&offset) noexcept;
 
-        // encode: handles both cases internally
-        //   → no table: writes plain labels
-        //   → table given: writes pointer if name was seen before
-        static std::expected<std::vector<uint8_t>, Error>
-        encode(const std::string& name,
-                     std::unordered_map<std::string, uint16_t>* table,
-                     uint16_t baseOffset) noexcept;
+            // encode: handles both cases internally
+            //   → no table: writes plain labels
+            //   → table given: writes pointer if name was seen before
+            static std::expected<std::vector<uint8_t>, Error>
+            encode(const std::string& name,
+                        std::unordered_map<std::string, uint16_t>* table,
+                        uint16_t baseOffset) noexcept;
     };
 
 
